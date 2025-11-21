@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
 import Sidenav from "./partials/Sidenav";
-import Topnav from "./partials/Topnav";
 import axios from "../utils/axois";
 import Header from "./partials/Header";
 import HorizontalCards from "./partials/HorizontalCards";
 import Loading from "./Loading";
 import Dropdown from "./partials/Dropdown";
+import Topnav from "./Topnav";
 
 function Home() {
   document.title = "SCSDB";

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-import Topnav from "./partials/Topnav";
+import Topnav from "./Topnav";
 import Dropdown from "./partials/Dropdown";
 import axios from "../utils/axois";
 import Cards from "./partials/Cards";

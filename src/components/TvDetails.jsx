@@ -164,10 +164,10 @@ function TvDetails() {
 
       {/* Part 4 Seasons */}
 
-      <hr className="mt-10 mb-5 border-none h-[2px] bg-zinc-500 " />
+      <hr className="mt-10 mb-5 border-none h-[2 px] bg-zinc-500 " />
 
       <h1 className=" text-2xl font-bold text-white">Seasons</h1>
-      <div className="w-[100%] flex overflow-y-hidden mb-5 p-5 ">
+      <div className="w-full flex overflow-y-hidden mb-5 p-5 ">
         {info.detail.seasons.length > 0 ? (
           info.detail.seasons.map((s, i) => (
             <div className="w-[15vh] mr-[8%] ">
@@ -195,7 +195,7 @@ function TvDetails() {
 
       {/* Part 5 Recommendations and Similar Stuff */}
 
-      <hr className="mt-10 mb-5 border-none h-[2px] bg-zinc-500 " />
+      <hr className="mt-10 mb-5 border-none h-[2 px] bg-zinc-500 " />
 
       <h1 className=" text-2xl font-bold text-white">
         Recommendations & Similar stuff
