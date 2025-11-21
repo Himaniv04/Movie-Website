@@ -38,7 +38,7 @@ function Home() {
     !wallpaper && GetHeaderWallpaper();
   }, [category]);
 
-  return !wallpaper && trending ? (
+  return wallpaper && trending ? (
     <>
       <Sidenav />
       <div className="w-[80%] h-full overflow-auto overflow-x-hidden ">
