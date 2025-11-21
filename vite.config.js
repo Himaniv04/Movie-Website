@@ -8,4 +8,16 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks(id) {
+          if (id.includes('node_modules')) {
+            return 'vendor';  // node_modules ko alag chunk me daal do
+          }
+        }
+      }
+    },
+    chunkSizeWarningLimit: 10000,  // warning tab aayegi agar chunk 1000 kB se bada ho
+  }
 })
