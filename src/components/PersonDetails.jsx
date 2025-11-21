@@ -44,7 +44,7 @@ function PersonDetails() {
             src={`https://image.tmdb.org/t/p/original/${info.detail.profile_path}`}
             alt=""
           />
-          <hr className="mt-10 mb-5 border-none h-[2px] bg-zinc-500 " />
+          <hr className="mt-10 mb-5 border-none h-[1 px] bg-zinc-500 " />
 
           {/* Social Media Links */}
           <div className="text-2xl text-white flex gap-x-5">

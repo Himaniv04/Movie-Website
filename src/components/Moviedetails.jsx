@@ -164,7 +164,7 @@ function Moviedetails() {
 
       {/* Part 4 Recommendations and Similar Stuff */}
 
-      <hr className="mt-10 mb-5 border-none h-[2px] bg-zinc-500 " />
+      <hr className="mt-10 mb-5 border-none h-[1 px] bg-zinc-500 " />
 
       <h1 className=" text-2xl font-bold text-white">
         Recommendations & Similar stuff
